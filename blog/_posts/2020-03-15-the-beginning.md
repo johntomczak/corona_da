@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome!"
+title:  "Original Post!"
 ---
 
 # Original Post - 03/15/2020, 11p CDT
