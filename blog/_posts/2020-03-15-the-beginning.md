@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Original Post!"
----
+title:  "Original Post"
+date:   2020-03-15 20:42:00 -0500
 
-# Original Post - 03/15/2020, 11p CDT
+---
 
 I am not really sure where I came across this dataset. Like the rest of us, I have been consuming a lot of media this ~week. I think the link came up on Hacker News and an email newsletter and a few times on Twitter. Regardless, I finally clicked it, and was quickly taken in. Restaurants seatings seem like a fairly good proxy for social activity. Not sure that that presumption needs a lot of explanation.
 
