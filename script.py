@@ -12,3 +12,6 @@ wide_df = pd.DataFrame( dd, ii, ll )
 ax = sns.lineplot(data=wide_df)
 
 ax.set_xticklabels( ax.get_xticklabels(),rotation=45,horizontalalignment='right',fontweight='light',fontsize='x-large' )
+
+
+ax.set_yticklabels( ax.get_yticklabels(),rotation=45,horizontalalignment='right',fontweight='light',fontsize='x-small' )
