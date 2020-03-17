@@ -30,9 +30,4 @@ d1 = d1.drop('Hamburg')
 d1 = d1.drop('München')
 d1 = d1.drop('Dublin')
 
-# don't need
-# d1 = d1.drop( 'State', 1 )
-# d1 = d1.drop( 'Country', 1 )
-
 info = d1.describe()
-# d1 = d1.append(info)
