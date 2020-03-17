@@ -1,4 +1,19 @@
-# coding: utf-8
+---
+layout: post
+title:  "Big Monday"
+date:   2020-03-15 22:30:00 -0500
+
+---
+
+First, allow me to introduce today's updated 10 Day Chart:
+![March06-March15](/assets/315-10d.png)
+
+It goes without saying that last night, Sunday night, March 15 (Beware the Ides) was yet another big shift.
+
+Here is March 15 just by itself, w a histograph:
+
+![March 15 histograph](/assets/315_precise.png)
+Check out the sorted numbers:
 City
 San Francisco     -0.72
 Boston            -0.70
@@ -41,4 +56,3 @@ Minneapolis       -0.33
 Honolulu          -0.32
 Miami Beach       -0.23
 Tampa             -0.20
-Name: 03_15, dtype: float64
