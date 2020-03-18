@@ -21,4 +21,4 @@ Each day's curve is set it up to get more opaque, and from blue to pink (keeping
 
 You can see that as time progresses the medians (peaks) come down and the spread widens. Also, it looks like there is a shift from up to Sunday and Monday onward. I am not sure what changed, but maybe it is because everyone got a little more worked up once they got back to chatting with colleagues (in person or online).
 
-![My screenshot](/assets/Last10Days_OpenTable.png)
+![My screenshot](assets/Last10Days_OpenTable.png)
