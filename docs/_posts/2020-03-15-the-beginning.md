@@ -5,6 +5,8 @@ date:   2020-03-15 20:42:00 -0500
 
 ---
 
+![My IMG](/thing.png)
+
 I am not really sure where I came across this dataset. Like the rest of us, I have been consuming a lot of media this ~week. I think the link came up on Hacker News and an email newsletter and a few times on Twitter. Regardless, I finally clicked it, and was quickly taken in. Restaurants seatings seem like a fairly good proxy for social activity. Not sure that that presumption needs a lot of explanation.
 
 To get a sense of it, I copy and pasted to an Excel file and overlaid some heat maps and other conditional formattings. I was first struck by the clear outliers - NYC, SF, and Seattle. They had massive (more than -20%) for many more days than the rest of the cities. This makes sense, at least as far at he news reports have been saying.
