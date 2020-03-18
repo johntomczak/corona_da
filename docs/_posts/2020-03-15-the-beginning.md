@@ -5,6 +5,8 @@ date:   2020-03-15 20:42:00 -0500
 
 ---
 
+![My screenshot](docs/assets/314_Last10Days_OpenTable)
+
 I am not really sure where I came across this dataset. Like the rest of us, I have been consuming a lot of media this ~week. I think the link came up on Hacker News and an email newsletter and a few times on Twitter. Regardless, I finally clicked it, and was quickly taken in. Restaurants seatings seem like a fairly good proxy for social activity. Not sure that that presumption needs a lot of explanation.
 
 To get a sense of it, I copy and pasted to an Excel file and overlaid some heat maps and other conditional formattings. I was first struck by the clear outliers - NYC, SF, and Seattle. They had massive (more than -20%) for many more days than the rest of the cities. This makes sense, at least as far at he news reports have been saying.
@@ -20,5 +22,3 @@ I will just share one tonight: The past 10 nights. As the time stamp should say,
 Each day's curve is set it up to get more opaque, and from blue to pink (keeping it simple), as we get closer to last night.
 
 You can see that as time progresses the medians (peaks) come down and the spread widens. Also, it looks like there is a shift from up to Sunday and Monday onward. I am not sure what changed, but maybe it is because everyone got a little more worked up once they got back to chatting with colleagues (in person or online).
-
-![My screenshot](/assets/314_Last10Days_OpenTable.png)
