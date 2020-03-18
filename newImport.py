@@ -8,7 +8,7 @@ import datetime
 from scipy.stats import norm
 
 # I label each day's download with the latest included evening
-d = datetime.datetime.now() - datetime.timedelta(days=1)
+d = datetime.datetime.now() - datetime.timedelta(days=2)
 d = d.strftime('%m_%d')
 
 # as of now, I just keep the file in the same dir
