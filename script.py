@@ -1,6 +1,6 @@
 # coding: utf-8
 
-%run import_data.py
+%run newImport.py
 
 plt.figure(figsize=(10,5))
 
