@@ -7,27 +7,36 @@ import sys
 import datetime
 from scipy.stats import norm
 
-# I label each day's download with the latest included evening
-d = datetime.datetime.now() - datetime.timedelta(days=2)
-d = d.strftime('%m_%d')
+def load():
+    # I label each day's download with the latest included evening
+    d = datetime.datetime.now() - datetime.timedelta(days=1)
+    d = d.strftime('%m_%d')
 
-# as of now, I just keep the file in the same dir
-fl = 'opentable_' + str(d) + '.xlsx'
-d1 = pd.read_excel(fl)
+    # as of now, I just keep the file in the same dir
+    fl = 'opentable_' + str(d) + '.xlsx'
+    d1 = pd.read_excel(fl)
 
-d1 = d1[d1.columns[::-1]]
-d1 = d1.set_index('Name')
+    d1 = d1[d1.columns[::-1]]
+    d1 = d1.set_index('Name')
 
-# please blame my friend Rem if you go blind on this one - he is the King of One-Lining
-d1.columns = pd.Series(d1.columns).apply(lambda x: x.strftime('%m_%d') if type(x) != str else x)
+    # please blame my friend Rem if you go blind on this one - he is the King of One-Lining
+    d1.columns = pd.Series(d1.columns).apply(lambda x: x.strftime('%m_%d') if type(x) != str else x)
 
-# NOLA has to go because of Mardi Gras moving around on the calendar
-d1 = d1.drop('New Orleans')
+    # NOLA has to go because of Mardi Gras moving around on the calendar
+    d1 = d1.drop('New Orleans')
 
-# just want to stick to N. Am. cities, idk
-d1 = d1.drop('London')
-d1 = d1.drop('Hamburg')
-d1 = d1.drop('München')
-d1 = d1.drop('Dublin')
+    # just want to stick to N. Am. cities, idk
+    d1 = d1.drop('London')
+    d1 = d1.drop('Hamburg')
+    d1 = d1.drop('München')
+    d1 = d1.drop('Dublin')
 
-info = d1.describe()
+    info = d1.describe()
+
+    # print( d1[d].sort_values() )
+
+    # print( d1[d] )
+
+    return d1
+
+load()
