@@ -33,10 +33,6 @@ def load():
 
     info = d1.describe()
 
-    # print( d1[d].sort_values() )
-
-    # print( d1[d] )
-
     return d1
 
 load()
