@@ -8,6 +8,7 @@ import datetime
 from scipy.stats import norm
 
 def load():
+    #poggers
     # I label each day's download with the latest included evening
     d = datetime.datetime.now() - datetime.timedelta(days=1)
     d = d.strftime('%m_%d')
